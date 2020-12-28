@@ -18,6 +18,7 @@ class MyTest(unittest.TestCase):
         
 if __name__ == "__main__":
     import xmlrunner
+    print ("hello")
     runner=xmlrunner.XMLTestRunner(output='test-reports')
     unittest.main(testRunner=runner)
     unittest.main()
