@@ -9,4 +9,4 @@ COPY . .
 
 RUN python ./test.py
 
-CMD [ "python3", "./lab2_Poyner.py" ]
+CMD [ "python3", "./test.py" ]
